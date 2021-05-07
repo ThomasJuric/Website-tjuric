@@ -18,7 +18,7 @@ export const InfoWrapper = styled.div`
     justify-content: center;
     text-align: center;
     @media screen and (max-width: 500px) {
-        height: 400px;
+        height: 300px;
     }
 `
 

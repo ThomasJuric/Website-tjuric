@@ -23,7 +23,7 @@ export const InfoWrapper = styled.div`
     @media screen and (max-width: 520px) {
         border-top: solid 0.5px #212121;
         padding-top: 4px;
-        height: 400px;
+        height: 450px;
     }
 
 `

@@ -59,7 +59,7 @@ export const Heading = styled.h1`
     padding-top: 5%;
     font-size: 58px;
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: bold;
     text-align: center;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 

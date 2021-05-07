@@ -49,6 +49,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Notable Assistance
-
-This website was developed through the help of https://www.youtube.com/watch?v=Nl54MJDR2p8 tutorial on YouTube

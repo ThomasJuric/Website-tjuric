@@ -1,14 +1,10 @@
 import React from 'react'
 import {FaLinkedin, FaGithub} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi'
-import Video from '../../videos/video.mp4'
-import LinkedIn from '../../images/linkedin.png';
-import Mail from '../../images/gmail.png';
-import Github from '../../images/github.png';
+
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
     HeroContent,
     HeroH1,
     HeroP,
@@ -16,12 +12,10 @@ import {
     SocialLink,
     Line
 } from './HeroStyles';
-import { FaBuromobelexperte } from 'react-icons/fa';
 const HeroSection = () => {
     return (
         <HeroContainer id = "home">
             <HeroBg>
-                {/* <VideoBg autoPlay loop muted src={Video} type = 'video/mp4'/> */}
             </HeroBg>
             <HeroContent>
                 <HeroH1>Thomas Juric</HeroH1>

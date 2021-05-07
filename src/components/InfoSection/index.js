@@ -8,9 +8,10 @@ import {SiCodio,
     SiStyledComponents,
     SiBootstrap,
     SiGit,
-    SiReact
+    SiReact,
+    SiFigma,
+    SiDrupal
     } from 'react-icons/si'
-import {GrSelect} from 'react-icons/gr'
 import {IoLogoJavascript, IoLogoNodejs} from 'react-icons/io'
 import {HiOutlineCursorClick} from 'react-icons/hi'
 import {FcLinux} from 'react-icons/fc'
@@ -21,9 +22,9 @@ import {
     Column1,
     Column2,
     TextWrapper,
-    TopLine,
     Heading,
-    Subtitle
+    Subtitle,
+    TheText
 } from './InfoElements'
 const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, description2}) => {
     return (
@@ -35,30 +36,28 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                         <Column1>
                         <TextWrapper darkText = {darkText}>
                             <Subtitle darkText = {darkText}>{description1}</Subtitle>
-                                <ul>
-                                    <li>C Language | <SiCodio size={33}/></li>
-                                    <li>Python | <SiPython size={33}/></li>
-                                    <li>Java | <SiJava size={33}/></li>
-                                    <li>Javascript | <IoLogoJavascript size={33}/></li>
-                                    <li>HTML | <SiHtml5 size={33}/></li>
-                                    <li>CSS | <SiCss3 size={33}/></li>
-                                    <li>Styled Components | <SiStyledComponents size={33}/></li>
-                                </ul>
+                                    <TheText>C Language | <SiCodio size={33}/></TheText>
+                                    <TheText>Python | <SiPython size={33}/></TheText>
+                                    <TheText>Java | <SiJava size={33}/></TheText>
+                                    <TheText>Javascript | <IoLogoJavascript size={33}/></TheText>
+                                    <TheText>HTML | <SiHtml5 size={33}/></TheText>
+                                    <TheText>CSS | <SiCss3 size={33}/></TheText>
+                                    <TheText>Styled Components | <SiStyledComponents size={33}/></TheText>
                         </TextWrapper>
 
                         </Column1>
                         <Column2>
                         <TextWrapper darkText = {darkText}>
                         <Subtitle darkText = {darkText}>{description2}</Subtitle>
-                            <ul>
-                                <li>React | <SiReact size={33}/></li>
-                                <li>NodeJS | <IoLogoNodejs size={33}/></li>
-                                <li>Selenium | <HiOutlineCursorClick size={33}/></li>
-                                <li>Linux | <FcLinux size={33}/></li>
-                                <li>Git | <SiGit size={33}/></li>
-                                <li>Bootstrap | <SiBootstrap size={33}/></li>
-                                <li>Visual Studio Code | <SiVisualstudiocode size={33}/></li>
-                            </ul>
+                                <TheText>React | <SiReact size={33}/></TheText>
+                                <TheText>NodeJS | <IoLogoNodejs size={33}/></TheText>
+                                <TheText>Selenium | <HiOutlineCursorClick size={33}/></TheText>
+                                <TheText>Linux | <FcLinux size={33}/></TheText>
+                                <TheText>Git | <SiGit size={33}/></TheText>
+                                <TheText>Bootstrap | <SiBootstrap size={33}/></TheText>
+                                <TheText>Visual Studio Code | <SiVisualstudiocode size={33}/></TheText>
+                                <TheText>Figma | <SiFigma size={33}/></TheText>
+                                <TheText>Drupal | <SiDrupal size={33}/></TheText>
                         </TextWrapper>
                         </Column2>
                     </InfoRow>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({lightBg}) => (lightBg ? '#fcf4f2' : '#010606')};
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
@@ -11,7 +11,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 700px;
+    height: 800px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -56,17 +56,13 @@ export const TopLine = styled.p`
 `
 
 export const Heading = styled.h1`
-    padding-left: 30%;
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 58px;
     line-height: 1.1;
     font-weight: 600;
+    text-align: center;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-    @media screen and (max-width: 768px) {
-        padding-left: 50px;
-
-    }
     @media screen and (max-width: 480px) {
         font-size: 32px;
 
@@ -77,9 +73,22 @@ export const Subtitle = styled.p`
     max-width: 440px;
     font-size: 35px;
     line-height: 24px;
+    font-weight: bold;
     color:${({darkText}) => (darkText ? '#010606' : '#fff')};
     @media screen and (max-width: 768px) {
         font-size: 25px;
 
     }
 `
+export const TheText = styled.li`
+    font-size: 20px;
+    line-height: 55px;
+
+    margin-top: 5px;
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+        line-height: 35px;
+
+
+    }
+` 

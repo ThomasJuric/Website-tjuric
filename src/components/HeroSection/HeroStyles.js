@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
@@ -20,20 +19,10 @@ export const HeroBg = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: #2a2a34;
     overflow:hidden;
-    background: #0c0c0c;
+    background: #292929;
 `
 
-// export const VideoBg = styled.video`
-//     width: 100%;
-//     height: 100%;
-//     z-index: -3;
-//     -o-object-fit: cover;
-//     object-fit: cover;
-//     background: #2a2a34;
-//     filter: brightness(30%);
-// `
 
 export const HeroContent = styled.div`
     background: #1E1E1E;

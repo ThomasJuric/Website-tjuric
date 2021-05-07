@@ -1,9 +1,9 @@
 export const homeObjOne = {
     id: 'skills',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    darkText: false,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    darkText: true,
     topLine: '',
     headline: 'Skills',
     description1: 'Languages',

@@ -1,9 +1,14 @@
 import React, {useState} from 'react'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/Data'
+import ExperienceSection from '../components/ExperienceSection'
+import Projects from '../components/ProjectsSection'
+import { homeObjOne } from '../components/InfoSection/Data'
+import { Experience } from '../components/ExperienceSection/Data'
 import Menu from '../components/Menu'
 import Navbar from '../components/Navbar'
+import { projectOne } from '../components/ProjectsSection/Data'
+import Footer from '../components/Footer'
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -17,8 +22,9 @@ const Home = () => {
             <Menu isOpen={isOpen} toggle={toggle}/>
             <HeroSection/>
             <InfoSection {...homeObjOne}/>
-            <InfoSection {...homeObjTwo}/>
-            <InfoSection {...homeObjThree}/>
+            <ExperienceSection {...Experience}/>
+            <Projects {...projectOne}/>
+            <Footer/>
         </>
     )
 }

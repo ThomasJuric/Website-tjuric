@@ -6,7 +6,7 @@ export const MenuContainer = styled.aside`
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: #292929;
     display: grid;
     align-items: center;
     top: 0;
@@ -18,6 +18,11 @@ export const MenuContainer = styled.aside`
 
 export const CloseIcon = styled(FaTimes)`
     color: white;
+    &:hover {
+        color: #0AEFFF;
+        transition: 0.2s ease-in-out;
+        text-decoration: none
+    }
 `
 
 export const Icon = styled.div`
@@ -28,6 +33,7 @@ export const Icon = styled.div`
     font-size: 2rem;
     cursor: pointer;
     outline: none;
+    
 `
 export const MenuWrapper = styled.div`
     color:#fff;
@@ -40,7 +46,7 @@ export const MenuOptions = styled.ul`
     text-align: center;
     
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(6,60px);
+        grid-template-rows: repeat(6,90px);
         
     }
 `
@@ -56,7 +62,7 @@ export const MenuLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #0AEFFF;
         transition: 0.2s ease-in-out;
         text-decoration: none
     }

@@ -4,7 +4,6 @@ import { Link as LinkS } from 'react-scroll';
 
 export const MenuContainer = styled.aside`
     position: fixed;
-    z-index: 1000;
     width: 100%;
     height: 100%;
     background: #0d0d0d;
@@ -13,6 +12,7 @@ export const MenuContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
+    z-index: ${({ isOpen }) => (isOpen ? '999' : '8')};
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 `
 
@@ -33,7 +33,7 @@ export const MenuWrapper = styled.div`
     color:#fff;
 `
 
-export const MenuOptions = styled.div`
+export const MenuOptions = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4,100px);

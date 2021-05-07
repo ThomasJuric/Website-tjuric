@@ -10,25 +10,19 @@ import {
     NavLinks,
     CenterMenu
     }    from './NavbarStyle'
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to = "/">TJ</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick = {toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
-                            <NavLinks to="skills">Skills</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="projects">Projects</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="experience">Experience</NavLinks>
-                        </NavItem>
+                        <NavItem><NavLinks to="skills">Skills</NavLinks></NavItem>
+                        <NavItem><NavLinks to="projects">Projects</NavLinks></NavItem>
+                        <NavItem><NavLinks to="experience">Experience</NavLinks></NavItem>
                     </NavMenu>
                     <CenterMenu>
                             

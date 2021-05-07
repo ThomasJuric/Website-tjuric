@@ -8,22 +8,20 @@ import {
     MenuLink
 } from './MenuStyle';
 
-const Menu = () => {
+const Menu = ( {isOpen, toggle}) => {
     return (
-        <>
-            <MenuContainer>
-                <Icon>
+            <MenuContainer isOpen = {isOpen} onClick = {toggle}>
+                <Icon onClick = {toggle}>
                     <CloseIcon/>
                 </Icon>
                 <MenuWrapper>
                     <MenuOptions>
-                        <MenuLink to='skills'>Skills</MenuLink>
-                        <MenuLink to="projects">Projects</MenuLink>
-                        <MenuLink to="experience">Experience</MenuLink>
+                        <MenuLink to='skills' onClick = {toggle}>Skills</MenuLink>
+                        <MenuLink to="projects" onClick = {toggle}>Projects</MenuLink>
+                        <MenuLink to="experience" onClick = {toggle}>Experience</MenuLink>
                     </MenuOptions>
                 </MenuWrapper>
             </MenuContainer>  
-        </>
     )
 }
 

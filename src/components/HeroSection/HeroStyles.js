@@ -25,7 +25,6 @@ export const HeroBg = styled.div`
 
 
 export const HeroContent = styled.div`
-    background: #1E1E1E;
     width: 70%;
     border-radius: 30px;
     position: absolute;

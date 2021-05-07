@@ -42,7 +42,6 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                     <TheText>Javascript | <IoLogoJavascript size={33}/></TheText>
                                     <TheText>HTML | <SiHtml5 size={33}/></TheText>
                                     <TheText>CSS | <SiCss3 size={33}/></TheText>
-                                    <TheText>Styled Components | <SiStyledComponents size={33}/></TheText>
                         </TextWrapper>
 
                         </Column1>
@@ -56,6 +55,7 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                 <TheText>Git | <SiGit size={33}/></TheText>
                                 <TheText>Bootstrap | <SiBootstrap size={33}/></TheText>
                                 <TheText>Visual Studio Code | <SiVisualstudiocode size={33}/></TheText>
+                                <TheText>Styled Components | <SiStyledComponents size={33}/></TheText>
                                 <TheText>Figma | <SiFigma size={33}/></TheText>
                                 <TheText>Drupal | <SiDrupal size={33}/></TheText>
                         </TextWrapper>

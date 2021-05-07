@@ -1,3 +1,7 @@
+# Personal Website
+
+I developed this personal website using React and Styled Components.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # my-website
+
+# Notable Assistance
+
+This website was developed through the help of https://www.youtube.com/watch?v=Nl54MJDR2p8 tutorial on YouTube

@@ -12,7 +12,7 @@ export const MenuContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
-    z-index: ${({ isOpen }) => (isOpen ? '999' : '8')};
+    z-index: ${({ isOpen }) => (isOpen ? '999' : '-2')};
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 `
 

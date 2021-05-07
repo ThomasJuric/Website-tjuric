@@ -24,7 +24,7 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                 <TheText>
                                     A Website I developed for my friend's Art Portfolio.
                                 </TheText>
-                                <Button href = "https://jlenn.net/">
+                                <Button target = "__blank" href = "https://jlenn.net/">
                                     Check out website
                                 </Button>
                         </TextWrapper>
@@ -35,7 +35,7 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                 <TheText>
                                     A Web Application I developed using the Minimax Algorithm
                                 </TheText>
-                                <Button href = "https://github.com/ThomasJuric/tic-tac-toe">
+                                <Button target = "__blank" href = "https://github.com/ThomasJuric/tic-tac-toe">
                                 Code on Github&nbsp; <FaGithub/>
                             </Button>
                         </TextWrapper>
@@ -48,7 +48,7 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                 <TheText>
                                     Check out my Github for all of my project repositories
                                 </TheText>
-                                <Button href = "https://github.com/ThomasJuric">
+                                <Button target = "__blank" href = "https://github.com/ThomasJuric">
                                 My Github&nbsp; <FaGithub/>
                             </Button>
                         </TextWrapper>

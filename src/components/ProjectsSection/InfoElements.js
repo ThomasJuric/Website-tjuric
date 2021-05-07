@@ -17,9 +17,7 @@ export const InfoWrapper = styled.div`
     margin-top: 5%;
     justify-content: center;
     text-align: center;
-    @media screen and (max-width: 500px) {
-        height: 300px;
-    }
+    
 `
 
 export const InfoRow = styled.div`

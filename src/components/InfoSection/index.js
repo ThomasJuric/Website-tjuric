@@ -26,7 +26,7 @@ import {
     TextWrapper,
     Heading,
     Subtitle,
-    TheText
+    TheText,
 } from './InfoElements'
 const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, description2}) => {
     return (
@@ -45,7 +45,6 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                     <TheText>HTML | <SiHtml5 size={33}/></TheText>
                                     <TheText>CSS | <SiCss3 size={33}/></TheText>
                         </TextWrapper>
-
                         </Column1>
                         <Column2>
                         <TextWrapper darkText = {darkText}>

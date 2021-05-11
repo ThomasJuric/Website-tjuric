@@ -21,7 +21,8 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 520px) {
-        border-top: solid 0.5px #212121;
+        border-top: solid 1px #212121;
+        border-bottom: solid 3px #212121;
         padding-top: 4px;
         height: 450px;
     }

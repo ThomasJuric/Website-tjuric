@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {FaGithub} from 'react-icons/fa'
+import {FaGithub, FaGamepad} from 'react-icons/fa'
 
 import {
     InfoContainer,
@@ -18,7 +18,19 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
             <InfoContainer lightBg={lightBg} id={id}>
                 <Heading lightText = {lightText}>{headline}</Heading>
                 <InfoWrapper>
-                    <InfoRow theSection = {false}>
+                <InfoRow theSection = {false}>
+                        <TextWrapper darkText = {darkText}>
+                            <Subtitle darkText = {darkText}>{description2}</Subtitle>
+                                <TheText>
+                                    A Web Application I developed using the Minimax Algorithm
+                                </TheText>
+                                <Button target = "__blank" href = "https://xogamexo.netlify.app/">
+                                Play Game&nbsp; <FaGamepad/>
+                            </Button>
+                        </TextWrapper>
+                        
+                    </InfoRow>
+                    <InfoRow theSection = {true}>
                         <TextWrapper darkText = {darkText}>
                             <Subtitle darkText = {darkText}>{description1}</Subtitle>
                                 <TheText>
@@ -29,19 +41,6 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                 </Button>
                         </TextWrapper>
                     </InfoRow>
-                    <InfoRow theSection = {true}>
-                        <TextWrapper darkText = {darkText}>
-                            <Subtitle darkText = {darkText}>{description2}</Subtitle>
-                                <TheText>
-                                    A Web Application I developed using the Minimax Algorithm
-                                </TheText>
-                                <Button target = "__blank" href = "https://github.com/ThomasJuric/tic-tac-toe">
-                                Code on Github&nbsp; <FaGithub/>
-                            </Button>
-                        </TextWrapper>
-                        
-                    </InfoRow>
-
                     <InfoRow theSection = {false}>
                         <TextWrapper darkText = {darkText}>
                             <Subtitle darkText = {darkText}>{description3}</Subtitle>

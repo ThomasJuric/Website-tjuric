@@ -12,7 +12,8 @@ import {SiCodio,
     SiGit,
     SiReact,
     SiFigma,
-    SiDrupal
+    SiDrupal,
+    SiLatex
     } from 'react-icons/si'
 import {IoLogoJavascript, IoLogoNodejs} from 'react-icons/io'
 import {HiOutlineCursorClick} from 'react-icons/hi'
@@ -38,10 +39,10 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                         <Column1>
                         <TextWrapper darkText = {darkText}>
                             <Subtitle darkText = {darkText}>{description1}</Subtitle>
+                                    <TheText>Javascript | <IoLogoJavascript size={33}/></TheText>
                                     <TheText>C Language | <SiCodio size={33}/></TheText>
                                     <TheText>Python | <SiPython size={33}/></TheText>
                                     <TheText>Java | <SiJava size={33}/></TheText>
-                                    <TheText>Javascript | <IoLogoJavascript size={33}/></TheText>
                                     <TheText>HTML | <SiHtml5 size={33}/></TheText>
                                     <TheText>CSS | <SiCss3 size={33}/></TheText>
                         </TextWrapper>
@@ -59,6 +60,7 @@ const InfoSection = ({lightBg, id, lightText, headline, darkText, description1, 
                                 <TheText>Styled Components | <SiStyledComponents size={33}/></TheText>
                                 <TheText>Figma | <SiFigma size={33}/></TheText>
                                 <TheText>Drupal | <SiDrupal size={33}/></TheText>
+                                <TheText>LaTex | <SiLatex size={33}/></TheText>
                         </TextWrapper>
                         </Column2>
                     </InfoRow>
